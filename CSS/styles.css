@@ -136,8 +136,9 @@ body, ul {
 
 .connect-text {
   margin: 0;
-  font-size: 1.5em; /* Adjust the font size for "Let's Connect!" */
+  font-size: 1.5em;
 }
+
 .footer-top {
   display: flex;
   flex-direction: column;
@@ -146,25 +147,27 @@ body, ul {
 }
 
 .logo-footer {
-  margin-bottom: 10px; /* Adjust the spacing between the logo and text */
+  margin-bottom: 10px;
 }
+
 .logo-footer img {
   width: 50px;
-  height: auto40;
+  height: auto;
 }
 
-
-.footer-icons {
+.footer-links {
   margin-top: 10px;
 }
 
-.footer-icons a {
+.footer-links a {
   color: #FF6000;
   display: inline-block;
   margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.footer-icons img {
-  width: 40px; /* Adjust the width of icons */
-  height: 40px; /* Adjust the height of icons */
+/* Remove default underline on hover */
+.footer-links a:hover {
+  text-decoration: none;
 }
