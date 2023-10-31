@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 body, ul {
   margin: 0;
   padding: 0;
@@ -167,7 +166,3 @@ body, ul {
   font-weight: bold;
 }
 
-/* Remove default underline on hover */
-.footer-links a:hover {
-  text-decoration: none;
-}
