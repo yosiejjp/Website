@@ -3,7 +3,7 @@ body, ul {
   padding: 0;
 }
 
-/* Style the navigation bar */
+
 .navbar {
   background-color: white;
   display: flex;
@@ -14,20 +14,21 @@ body, ul {
 }
 
 .logo {
-    display: flex; /* Use flexbox to align logo and name */
-    align-items: center; /* Vertically center the logo and name */
+    display: flex; 
+    align-items: center; 
 }
-/* Style the logo */
+
 .logo img {
-  width: 40px; /* Adjust the size as needed */
+  width: 40px; 
 }
 
 .name {
-    margin-left: 10px; /* Adjust the spacing as needed */
-    font-size: 1.2em; /* Adjust the font size as needed */
+    margin-left: 10px; 
     color: #333;
+    font-size: 1.2em; /
+    
 }
-/* Style the menu items */
+
 .menu {
   list-style: none;
   display: flex;
@@ -55,19 +56,19 @@ body, ul {
   background-color: transparent;
   transition: background-color 0.3s;
 }
+
 .menu a:hover::before {
-    background-color: #FF6000; /* Change the background color to your desired color on hover */
+    background-color: #FF6000; 
 }
 
-/* Style the action links */
 .actions a {
    gap: 70px;
   text-decoration: none;
   color: gray;
   font-weight: bold;
   margin-left: 20px;
-  
 }
+
 .hero {
   position: relative;
   text-align: center;
